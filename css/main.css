@@ -64,12 +64,12 @@ a {
     transition: 1s;
 }
 
-#avatar-bg:hover {
-    animation: 1s spinning linear infinite;
-}
-
 #avatar:hover {
     animation: 1s spinning reverse linear infinite;
+}
+
+#avatar-bg:hover {
+    animation: 1s spinning linear infinite;
 }
 
 .round {
