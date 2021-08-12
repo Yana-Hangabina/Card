@@ -43,6 +43,7 @@ hr {
 footer {
     position: fixed;
     bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 a {
