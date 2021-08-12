@@ -49,23 +49,13 @@ a {
     color: #ffffff;
 }
 
-@keyframes bgSpinning {
+@keyframes spinning {
     0% {
-        transform: rotate(8deg);
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(368deg);
-    }
-}
-
-@keyframes avatarPausing {
-    0% {
-        transform: rotate(-8deg);
-    }
-
-    100% {
-        transform: rotate(352deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -75,11 +65,11 @@ a {
 }
 
 #avatar:hover {
-    animation: 1s avatarPausing reverse linear infinite;
+    animation: 1s spinning reverse linear infinite;
 }
 
 #avatar-bg:hover {
-    animation: 1s bgSpinning linear infinite;
+    animation: 1s spinning linear infinite;
 }
 
 .round {
