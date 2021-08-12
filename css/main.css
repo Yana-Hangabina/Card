@@ -49,6 +49,7 @@ html,
             background-image: url('/images/avatar.webp');
             background-size: 111px 111px;
             transform: rotate(-8deg);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
         }
 
         #avatar-bg {
@@ -110,4 +111,17 @@ html,
         .social-icon:hover{
             transform: rotate(360deg);
             transition: 1s;
+        }
+
+        #avatar-bg:hover {
+            animation: 1s spinning linear infinite;
+        }
+
+        #avatar:hover {
+            animation: 1s spinning reverse linear infinite;
+        }
+
+        @keyframes spinning {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
