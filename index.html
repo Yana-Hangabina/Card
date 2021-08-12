@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="description" content="阎鸿彬的个人主页" />
+    <meta name="keywords" content="阎鸿彬, Yan, Hongbin, 个人主页, Personal" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>你好！我是阎鸿彬</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C5W240YHG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C5W240YHG7');
+    </script>
+
+    
+
+    <style>
+        html,
+        .card {
+            display: flex;
+            /* Flex布局 */
+            display: -webkit-flex;
+            /* Safari */
+            justify-content: center;
+            /* 水平居中 */
+            align-items: center;
+            /* 垂直居中 */
+            height: 100%;
+            font-family: 'Noto Serif SC', serif;
+        }
+
+        .round {
+            width: 120px;
+            height: 120px;
+            display: inline-block;
+            margin: 10px;
+            transition: 1s all;
+            border-radius: 0;
+            mask-image: paint(smooth-corners);
+            --smooth-level: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <script>(CSS.paintWorklet || paintWorklet).addModule('/javascripts/paint.js');</script>
+    <div class="card">
+        <header>
+            <img class="round" src="images/avatar.jpg">
+            <h1>阎鸿彬</h1>
+        </header>
+
+        <nav>
+
+        </nav>
+
+        <main>
+
+        </main>
+    </div>
+</body>
+
+</html>
