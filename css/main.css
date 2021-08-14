@@ -20,10 +20,10 @@ body {
     background-color: rgba(0, 0, 0, 0.63);
     background-blend-mode: multiply;
     background-image: linear-gradient(rgba(69, 45, 45, 0.16), rgba(69, 45, 45, 0.16)), url('/images/background.webp');
-    background-repeat: repeat, no-repeat;
-    background-position: left top, center center;
-    background-attachment: scroll, scroll;
-    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 * {
